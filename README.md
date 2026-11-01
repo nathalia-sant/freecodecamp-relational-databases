@@ -1,139 +1,146 @@
 <div align="center">
 
-# freeCodeCamp | Projects & Certifications
+# freeCodeCamp
+## Relational Database Certification
 
-**A journey through programming, databases and software development.**
-
-<br>
-
-[![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-0A0A23?style=flat-square&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/)
+**Projects, practical exercises and database development.**
 
 <br>
+
+[![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 
 </div>
 
 ---
 
-## Overview
+## About This Repository
 
-Welcome to my **freeCodeCamp Projects Repository**.
+This repository contains the practical projects developed throughout the **Relational Database Certification** offered by [freeCodeCamp](https://www.freecodecamp.org/).
 
-This repository documents my learning journey through freeCodeCamp certifications, featuring practical projects developed to strengthen my knowledge of programming, database management, problem-solving and software development.
+The goal is to document my progress in database development, SQL, PostgreSQL, relational modeling and command-line programming through hands-on projects.
 
-Rather than focusing only on theoretical concepts, I use these projects to apply what I learn, explore different technologies and develop practical experience through code.
+Each project is organized independently, with its source code and documentation.
 
-Each project is organized by certification and includes its source files, technologies and relevant documentation.
+## Projects
+
+### 01. Celestial Bodies Database
+
+**Status:** Completed
+
+A relational database representing a fictional universe, including galaxies, stars, planets, planet types and moons.
+
+**Technologies:** PostgreSQL · SQL
+
+**Concepts:**
+- Relational database design
+- Primary and foreign keys
+- Table relationships
+- Data types and constraints
+- Data manipulation
+
+[View Project →](./01-Celestial-Bodies-Database/)
 
 ---
 
-## Certifications & Projects
+### 02. Periodic Table Database
 
-### 01. Relational Database Certification
+**Status:** Not started
 
-**Celestial Bodies Database**
+A database project focused on storing and querying information about chemical elements.
 
-A relational database developed with PostgreSQL to represent a fictional universe. The database models galaxies, stars, planets, planet types and moons through structured relationships.
+**Technologies:** PostgreSQL · SQL
 
-| Information | Details |
-|:---|:---|
-| Certification | Relational Database |
-| Project | Celestial Bodies Database |
-| Database | PostgreSQL |
-| Language | SQL |
-| Status | Completed |
+[View Project →](./02-Periodic-Table-Database/)
 
-**Concepts applied**
+---
 
-- Relational database design
-- Database creation and management
-- Primary keys and foreign keys
-- One-to-many relationships
-- Data types and constraints
-- Data insertion and manipulation
-- Referential integrity
+### 03. Salon Appointment Scheduler
 
-**Project source**
+**Status:** Not started
 
-[View SQL Database](./universe.sql)
+A command-line application for managing salon services and customer appointments.
+
+**Technologies:** Bash · PostgreSQL · SQL
+
+[View Project →](./03-Salon-Appointment-Scheduler/)
+
+---
+
+### 04. World Cup Database
+
+**Status:** Not started
+
+A relational database for storing and analyzing World Cup match results and team information.
+
+**Technologies:** PostgreSQL · SQL · Bash
+
+[View Project →](./04-World-Cup-Database/)
+
+---
+
+### 05. Number Guessing Game
+
+**Status:** Not started
+
+A command-line number guessing game developed with Bash, incorporating PostgreSQL to store player information and game statistics.
+
+**Technologies:** Bash · PostgreSQL · SQL
+
+[View Project →](./05-Number-Guessing-Game/)
 
 ---
 
 ## Technologies & Tools
 
-Technologies and tools explored throughout my learning journey.
-
-<div align="left">
-
-**Database**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql" height="38" alt="Database technologies" />
-
-**Programming Languages**
-
-<img src="https://skillicons.dev/icons?i=java,python,js" height="38" alt="Programming languages" />
-
-**Development Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux" height="38" alt="Development tools" />
-
-</div>
-
----
+| Category | Technologies |
+|---|---|
+| Database Management | PostgreSQL |
+| Query Language | SQL |
+| Scripting | Bash |
+| Version Control | Git |
+| Repository Hosting | GitHub |
+| Development Environment | VS Code · Linux |
 
 ## Repository Structure
 
 ```text
-freeCodeCamp-Projects/
+freeCodeCamp-Relational-Database/
 │
 ├── README.md
 │
-├── Relational-Databases/
-│   └── Celestial-Bodies-Database/
-│       └── universe.sql
-│
-├── Scientific-Computing-with-Python/
-│
-├── JavaScript-Algorithms-and-Data-Structures/
-│
-└── Responsive-Web-Design/
+├── 01-Celestial-Bodies-Database/
+├── 02-Periodic-Table-Database/
+├── 03-Salon-Appointment-Scheduler/
+├── 04-World-Cup-Database/
+└── 05-Number-Guessing-Game/
 ```
-
-*The structure will expand as new certifications and projects are completed.*
-
----
 
 ## Learning Objectives
 
-Throughout this journey, my main objectives are:
+Throughout this certification, I aim to develop practical knowledge of:
 
-- Develop a strong foundation in programming.
-- Understand relational databases and data modeling.
-- Improve logical reasoning and problem-solving.
-- Practice writing clean and maintainable code.
-- Explore different programming languages and technologies.
-- Build practical projects that demonstrate my technical development.
+- Relational database architecture and design.
+- SQL queries and data manipulation.
+- PostgreSQL database administration.
+- Database relationships and constraints.
+- Bash scripting and command-line operations.
+- Data integrity and normalization.
+- Version control and project documentation.
+
+## Progress
+
+**Certification:** Relational Database  
+**Platform:** freeCodeCamp  
+**Projects completed:** 1 / 5
 
 ---
 
-## About Me
-
-I am an **Analysis and Systems Development student** interested in software engineering, backend development and database technologies.
-
-I enjoy exploring how software works, understanding the fundamentals behind technologies and turning theoretical knowledge into practical projects.
-
-This repository is a record of that process: every project represents a new concept learned, a challenge solved and another step in my development as a software developer.
-
-<br>
-
 <div align="center">
 
-**Learn · Build · Practice · Evolve**
+**Learn by building. Understand by practicing.**
 
-<br>
-
-[GitHub](https://github.com/nathalia-sant) &nbsp; | &nbsp; [freeCodeCamp](https://www.freecodecamp.org/)
+[GitHub Profile](https://github.com/nathalia-sant) · [freeCodeCamp](https://www.freecodecamp.org/)
 
 </div>
